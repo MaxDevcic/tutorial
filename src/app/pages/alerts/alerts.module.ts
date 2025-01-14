@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { AlertsPageRoutingModule } from './alerts-routing.module';
 
 import { AlertsPage } from './alerts.page';
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AlertsPageRoutingModule
+    AlertsPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [AlertsPage]
 })
